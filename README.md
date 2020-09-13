@@ -4,7 +4,7 @@ A getting-started kit for making your first interesting project with a Javascrip
 talking to a Python Flask backend.
 
 ### Requirements
-Python 3 with PIP and a modern browser. The frontend will probably not render or work 
+Python 3 with pip and a modern browser. The frontend will probably not render or work 
 properly in IE or older browsers in general.
 
 ### Tools
@@ -13,7 +13,7 @@ All these tools are cross-platform and works great on both Linux and Windows.
 I recommend [VSCode](https://code.visualstudio.com/) or, for true enlightenment, [Emacs](https://www.gnu.org/software/emacs).
 * Insomnia - Get it [here](https://insomnia.rest/). Makes sending POST, GET and any other request easy.
 * In-browser dev-tools - If you have Firefox or Chrome then you have their excellent 
-  dev-tools already installed. Just press F12 show the panel that houses them.
+  dev-tools already installed. Press F12 to show the panel that houses them.
 
 ### Running the project
 Install the module requirements for the Python backend by running `pip install` from the 
@@ -25,3 +25,6 @@ Start the Flask server with `python3 backend.py`. Note that the Python 3 binary 
 
 Start the frontend by opening `index.html` in the `frontend` folder in your browser. Make sure 
 to open the dev-tools by pressing F12 so you can see what's going on in the console.
+
+### Flask
+[See the official documentation](https://flask.palletsprojects.com/en/1.1.x/).
