@@ -24,10 +24,13 @@ function sendMessage() {
 	message: messageText
       })
     })
-    /* for the ".then" notation see: 
-       https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
-     */
+    
+    // for the ".then" notation see: 
+    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
       .then(reply => reply.json())
+
+    // => is "fat arrow" notation for anonymous functions. See:
+    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
       .then(json => {
 	console.log(json)
       })
