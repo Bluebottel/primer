@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Primer frontend</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Sets the zoom level on mobile devices -->
+    <meta name="viewport" content="width=device-width,
+		initial-scale=1.0" />
+  </head>
+  <body>
+    
+    <div class="center">
+
+      <div class="interface-panel">
+	<input type="text" class="sender-box"
+	  id="url-input" placeholder="http://localhost:14000/postjson">
+	
+	<input type="text" id="message-input"
+	  class="sender-box"
+	  placeholder="Message to send to the backend">
+	
+	<select class="selector" id="method-selector">
+	  <option>GET</option>
+	  <option>POST</option>
+	</select>
+	
+	<button class="send-button" onclick="sendMessage()">
+	  Send
+	</button>	
+      </div>
+      
+    </div>
+
+    <!-- You can name this file anything you want -->
+    <script type="text/javascript" src="some_javascript.js"></script>
+    
+  </body>
+</html>

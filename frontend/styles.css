@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.center {
+    display: grid;
+    height: 100%;
+    place-items: center;
+}
+
+.sender-box {
+    width: 25em;
+    height: 100%;
+    border: 2px solid black;
+    font-weight: bold;
+    padding: 0.5em;
+    border-right: none;
+}
+
+.send-button {
+    border: 2px solid black;
+    color: white;
+    height: 100%;
+    background: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.selector {
+    height: 100%;
+    border: none;
+    color: white;
+    background: black;
+    appearance: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.interface-panel {
+    height: 2em;
+    box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.5);
+
+    /* removes the newlines-rendered-as-spaces */
+    display: flex;
+}
